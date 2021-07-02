@@ -1,0 +1,152 @@
+.nen{
+  background-image: url(../images/home-bg-section-1.jpg);
+  height: 100vh;
+  Background-size: cover;
+} 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  background-color: #2d394b;
+  z-index: 1;
+}
+.dropdown-content a {
+  color:white;
+  padding: 10px 16px;
+  display: block;
+  min-width: 200px;
+  z-index: 1;
+  text-decoration: none;
+  font-family: Arnoldboecklin, fantasy;
+}
+.da{
+  padding-top: 250px;
+  padding-left: 30px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;  
+}
+.dropbtn{
+  border: none !important;
+  background-color:transparent  ;
+  padding-top: 8px;
+  color: white;
+  font-size: 16px;
+  font-family: Arnoldboecklin, fantasy;
+}
+a:hover{
+  color: blue;
+}
+.size-default-1{
+  font-family: Arnoldboecklin, fantasy;
+  padding-top: 150px;
+  line-height: 70px;
+}
+.size-default{
+  font-family: Arnoldboecklin, fantasy;
+  padding-left: 430px;
+}
+.video{
+  padding-left: 550px;
+}
+.giua{
+  background-image: url(../images/bg-home-5-1.png);
+  height: 100vh;
+  background-size: cover;
+}
+.tt{
+  padding-top: 20px;
+}
+.hinh1{
+  padding-top: 100px;
+}
+.hinh2{
+  padding-top: 100px;
+}
+.hinh3{
+  padding-top: 100px;
+}
+a.hovertext{
+  position: relative;
+  text-decoration: none !important;
+}
+a::after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+ 
+  padding: 10% 20px;
+  text-decoration: none !important;
+  color:white;
+  opacity: 0;
+ 
+  font-family: Arnoldboecklin, fantasy;
+  bottom: 0;
+}
+a.hovertext:hover::after, a.hovertext:focus::after {
+  opacity: 1.0;
+}
+.chay{
+  padding-left: 260px;
+  height: 100vh;
+}
+.play{
+  position: absolute;
+}
+.chay{
+  position: absolute;
+  padding-top: 50px;
+}
+.xuong{
+  margin-top: 278px;
+}
+.em{
+  padding-top: 100px;
+}
+.nentrang{
+  position: absolute;
+  top: 7cm;
+  right: 2em;
+  width: 20cm;
+  height: 8cm;
+  padding: 4px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  font-family: fantasy;
+  border-left: black;
+}
+.ho:hover{
+color: blue !important;
+}
+.c{
+  padding-left: 200px;
+  padding-top: 120px;
+}
+.ch{
+  background-color: cyan;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  background:white;
+  z-index: 1;
+  position: relative;
+  z-index: 2;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.input{
+  background: none;
+  border: none;
+  appearance: none;
+  outline: none;
+  border-bottom: 1px solid gray !important;
+  padding: 5px 0 !important;
+  color:gray;
+}
+.foodter{
+  padding: 20px;
+}
